@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+h4{
+margin: 0;
+padding: 0;
+}
+.navbar{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.lista-horizont{
+    display: flex;
+    align-items: center;
+}
+.lista-horizont li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+.lista-desna-horizont{
+
+    display: flex;
+    align-items: center;
+}
+.lista-desna-horizont li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+.signup-login{
+    display: flex;
+    justify-content: space-around;
+}
+.div-signup{
+    padding: 20px;
+    margin: 50px;
+    background: gray;
+    border-radius: 20px;
+}
+.div-login{
+    padding: 20px;
+    margin: 50px;
+    background: rebeccapurple;
+    border-radius: 20px;
+}
+.signup-login input{
+    border-radius: 5px;
+    color: black;
+    background: white;
+    border-width: 0;
+    padding: 5px;
+    margin: 3px;
+}
+.wrap-search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#search-main{
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+}
+#pretraga{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    position: absolute;
+    background: white;
+    top: 125px
+}
+.item-pretrage{
+    display: block;
+    font-size: 25px;
+}
+.item-pretrage:hover{
+    color: white;
+    background: blue;
+}
